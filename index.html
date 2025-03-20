@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, width=device-width">
+    <title>The Secret Life of Pets</title>
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <script defer type="module" src="js/main.js"></script>
+</head>
+
+<body>
+    <h1 class="hidden">The Secret Life of Pets</h1>
+    <header>
+        <section class="header">
+            <h2 class="hidden">The logo of the movie</h2>
+            <img src="images/logo.png" alt="Logo Image">
+        </section>
+    </header>
+
+    <main>
+        <p class="cta-text">Click on a pet image to meet their owner!</p>
+        <section class="pet-filter grid-con">
+            <h2 class="hidden">Pet filter</h2>
+            <nav class="filters col-span-full">
+                <button data-filter="All">All</button>
+                <button data-filter="Dog">Dogs</button>
+                <button data-filter="Cat">Cats</button>
+                <button data-filter="SmallAnimal">Small Animals</button>
+                <button data-filter="Bird">Birds</button>
+            </nav>
+        </section>
+
+        <section class="grid-con">
+            <h2 class="hidden">Cards container</h2>
+            <div class="pets-container col-span-full">
+                <div id="max" class="pet-card">
+                    <img src="images/max.png" alt="${this.name}" class="pet-image">
+                    <h2>Max</h2>
+                    <p>Species: dog</p>
+                    <p>Age: 5</p>
+                    <p>Favorite Toy: smth</p>
+                    <div class="full-profile" style="display: none;"></div>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+</html>
