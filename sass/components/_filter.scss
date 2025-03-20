@@ -1,0 +1,47 @@
+@use '../abstracts/fonts' as f;
+
+.filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+
+    button {
+        background-color: #e53935;
+        color: white;
+        padding: 10px 20px;
+        margin: 0 10px;
+        border: none;
+        border-radius: 5px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+            background-color: #ffffff;
+            color: #e53935;
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
+
+
+.filters button {
+    background-color: #e53935;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.filters button:hover {
+    background-color: #ffffff;
+    color: #e53935;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
