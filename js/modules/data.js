@@ -26,7 +26,7 @@ export const pets = [
         'Chew rope',
         new Owner(
             'Chuck',
-            'images/duke-owner.jpeg',
+            'images/duke-owner.png',
             'Chuck rescued Duke from the pound and they now live on a big farm together.'
         ),
     ),
@@ -39,7 +39,7 @@ export const pets = [
         'Stuffed squirrel',
         new Owner(
             'Emily',
-            'images/gidget-owner.jpeg',
+            'images/gidget-owner.png',
             'Emily spoils Gidget with homemade treats and cozy sweaters.'
         ),
     ),
@@ -52,7 +52,7 @@ export const pets = [
         'Squeaky donut',
         new Owner(
             'Dave',
-            'images/mel-owner.jpeg',
+            'images/mel-owner.png',
             'Dave and Mel spend their weekends binge-watching cartoons on the couch.'
         ),
     ),
@@ -65,7 +65,7 @@ export const pets = [
         'Tennis ball',
         new Owner(
             'Laura',
-            'images/buddy-owner.jpeg',
+            'images/buddy-owner.png',
             'Laura and Buddy love playing fetch and going on road trips.'
         ),
     ),
@@ -78,7 +78,7 @@ export const pets = [
         'Plish bone',
         new Owner(
             'Mr. Jenkins',
-            'images/pops-owner.jpeg',
+            'images/pops-owner.png',
             'Mr. Jenkins, a retired teacher, and Pops enjoy reading books together at home.'
         ),
     ),
@@ -91,7 +91,7 @@ export const pets = [
         'Laser pointer',
         new Owner(
             'Susan',
-            'images/chloe-owner.jpeg',
+            'images/chloe-owner.png',
             'Susan and Chloe enjoy lazy afternoons and Chloe’s famous cat naps.'
         ),
     ),
@@ -104,7 +104,7 @@ export const pets = [
         'Carrot chew toy',
         new Owner(
             'Lily',
-            'images/snowball-owner.jpeg',
+            'images/snowball-owner.png',
             'Lily is a young animal lover who takes Snowball to school for show-and-tell.'
         ),
     ),
@@ -117,7 +117,7 @@ export const pets = [
         'Cardboard tube',
         new Owner(
             'Alex',
-            'images/norman-owner.jpeg',
+            'images/norman-owner.png',
             'Alex built Norman a custom maze, and they play hide-and-seek daily.'
         ),
     ),
@@ -130,7 +130,7 @@ export const pets = [
         'Feathered ball',
         new Owner(
             'Clara',
-            'images/tiberus-owner.jpeg',
+            'images/tiberus-owner.png',
             'Clara rehabilitated Tiberius after he was injured and now they bond over birdwatching.'
         ),
     ),
@@ -143,7 +143,7 @@ export const pets = [
         'Mini swing',
         new Owner(
             'Ava',
-            'images/sweetpea-owner.jpeg',
+            'images/sweetpea-owner.png',
             'Ava loves teaching Sweetpea new tricks and taking them on fun indoor flights.'
         ),
     ),
@@ -156,7 +156,7 @@ export const pets = [
         'Catnip mouse',
         new Owner(
             'Mark',
-            'images/ozone-owner.jpeg',
+            'images/ozone-owner.png',
             'Mark and Ozone share a love for late-night stargazing sessions on their rooftop.'
         ),
     ),
