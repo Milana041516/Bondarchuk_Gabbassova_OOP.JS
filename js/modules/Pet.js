@@ -1,11 +1,12 @@
 export class Pet {
-    constructor(name, species, age, image, favoriteToy, owner) {
+    constructor(name, species, age, image, favoriteToy, owner, breed) {
         this.name = name;
         this.species = species;
         this.age = age;
         this.image = image;
         this.favoriteToy = favoriteToy;
         this.owner = owner;
+        this.breed = breed;
     }
 
     displayInfo(container) {
@@ -32,28 +33,24 @@ export class Pet {
 
 export class Dog extends Pet {
     constructor(name, species, age, image, favoriteToy, owner) {
-        super(name, species, age, image, favoriteToy, owner);
-        this.breed = "Dog";
+        super(name, species, age, image, favoriteToy, owner, "Dog");
     }
 }
 
 export class Cat extends Pet {
     constructor(name, species, age, image, favoriteToy, owner) {
-        super(name, species, age, image, favoriteToy, owner);
-        this.breed = "Cat";
+        super(name, species, age, image, favoriteToy, owner, "Cat");
     }
 }
 
 export class SmallAnimal extends Pet {
     constructor(name, species, age, image, favoriteToy, owner) {
-        super(name, species, age, image, favoriteToy, owner);
-        this.breed = "SmallAnimal";
+        super(name, species, age, image, favoriteToy, owner, "SmallAnimal");
     }
 }
 
 export class Bird extends Pet {
     constructor(name, species, age, image, favoriteToy, owner) {
-        super(name, species, age, image, favoriteToy, owner);
-        this.breed = "Bird";
+        super(name, species, age, image, favoriteToy, owner, "Bird");
     }
 }
