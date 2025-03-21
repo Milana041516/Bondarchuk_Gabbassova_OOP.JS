@@ -7,6 +7,7 @@
     <title>The Secret Life of Pets</title>
     <link href="css/grid.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <script defer type="module" src="js/main.js"></script>
 </head>
 
@@ -24,25 +25,17 @@
         <section class="pet-filter grid-con">
             <h2 class="hidden">Pet filter</h2>
             <nav class="filters col-span-full">
-                <button data-filter="All">All</button>
-                <button data-filter="Dog">Dogs</button>
-                <button data-filter="Cat">Cats</button>
-                <button data-filter="SmallAnimal">Small Animals</button>
-                <button data-filter="Bird">Birds</button>
+                <button data-breed="All" class="category-link">All</button>
+                <button data-breed="Dog" class="category-link">Dogs</button>
+                <button data-breed="Cat" class="category-link">Cats</button>
+                <button data-breed="SmallAnimal" class="category-link">Small Animals</button>
+                <button data-breed="Bird" class="category-link">Birds</button>
             </nav>
         </section>
 
         <section class="grid-con">
             <h2 class="hidden">Cards container</h2>
             <div class="pets-container col-span-full">
-                <div id="max" class="pet-card">
-                    <img src="images/max.png" alt="${this.name}" class="pet-image">
-                    <h2>Max</h2>
-                    <p>Species: dog</p>
-                    <p>Age: 5</p>
-                    <p>Favorite Toy: smth</p>
-                    <div class="full-profile" style="display: none;"></div>
-                    </div>
             </div>
         </section>
     </main>
