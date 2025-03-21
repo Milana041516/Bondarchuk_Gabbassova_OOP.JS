@@ -7,7 +7,7 @@
 
 .pet-card {
     background-color: #ffffff;
-    border: 3px solid #e53935;
+    border: 3px solid #6486A0;
     border-radius: 12px;
     margin: 20px;
     width: 250px;
@@ -20,8 +20,10 @@
 }
 
 .pet-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.25);
+    transform: translateY(-5px) scale(1.03);
+    box-shadow: 0 16px 35px rgba(0, 0, 0, 0.35);
+    border-color: #4A6C85; 
+    background-color: #f9fbfd; 
 }
 
 .pet-card h2 {
@@ -47,10 +49,4 @@
     color: #333;
     margin: 5px 0;
 }
-// .full-profile {
-//     margin-top: 15px;
-//     background: #f9f9f9;
-//     padding: 10px;
-//     border-top: 2px solid #e53935;
-//     border-radius: 8px;
-// }
+
