@@ -13,21 +13,28 @@ export class Pet {
         const card = document.createElement('div');
         card.classList.add('pet-card');
         card.dataset.breed = this.breed;
+    
         card.innerHTML = 
-        `   <img src="${this.image}" alt="${this.name}">
+        `   <img src="${this.image}" alt="${this.name}" class="pet-image">
             <h2>${this.name}</h2>
             <p>Species: ${this.species}</p>
             <p>Age: ${this.age}</p>
             <p>Favorite Toy: ${this.favoriteToy}</p>
-            <div class="full-profile" style="display: none;"></div>
         `;
+    
+        const image = card.querySelector('.pet-image');
+        image.addEventListener('click', () => {
+            this.showOwnerPopup();
+        });
+    
         container.appendChild(card);
-
-        // Image click triggers showFullProfile()
-        // const img = card.querySelector('.pet-image');
-        // img.addEventListener('click', () => {
-        //     this.showFullProfile(card.querySelector('.full-profile'));
-        // });
+    }
+    
+    showOwnerPopup() {
+        const popupCard = document.querySelector('.popup-card');
+        const popupContent = document.querySelector('.popup-content');
+        popupContent.innerHTML = this.owner.getPopupContent();
+        popupCard.classList.remove('hidden');
     }
 }
 
