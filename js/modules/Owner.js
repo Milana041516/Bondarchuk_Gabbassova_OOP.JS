@@ -7,7 +7,7 @@ export class Owner {
 
     getPopupContent() {
         return `
-            <img src="images/${this.image}" alt="${this.name}">
+            <img src="${this.image}" alt="${this.name}">
             <h2>${this.name}</h2>
             <p>${this.description}</p>
         `;
